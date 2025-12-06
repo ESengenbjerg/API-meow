@@ -10,7 +10,7 @@ legend {
   background-color: var(--warmWhite);
   border-radius: 8px;
   border: 2px dashed var(--warmGold);
-  padding: 1%;
+  padding: 1% 3%;
 }
 
 fieldset {
