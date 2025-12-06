@@ -53,5 +53,5 @@ article {
   height: auto;
   object-fit: contain;
   border-radius: 16px;
-  box-shadow: 0 4px 12px rgba(120, 100, 80, 0.2);
+  box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
 }

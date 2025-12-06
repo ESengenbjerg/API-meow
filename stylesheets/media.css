@@ -52,6 +52,7 @@
 
   button:hover {
     transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
   }
 
   .text p {
