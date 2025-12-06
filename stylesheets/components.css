@@ -52,6 +52,17 @@ button {
   height: 100%;
 }
 
+.fadeIn {
+  opacity: 0;
+  animation: fadeIn 0.6s ease-out forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
 .resultBox p {
   padding: 4% 1%;
 }

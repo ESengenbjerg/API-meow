@@ -40,7 +40,7 @@ button.addEventListener("click", () => {
 
   //Create div for both results
   const resultBox = document.createElement("div");
-  resultBox.classList.add("resultBox");
+  resultBox.classList.add("resultBox", "fadeIn");
 
   // Fetch facts from API
   fetch(url)
@@ -63,7 +63,7 @@ button.addEventListener("click", () => {
 
       //---------- Slideshow ----------
       gifImage.src = images[index];
-
+      gifImage.classList.add("fadeIn");
       index++;
 
       //Start from 0 when reaching end of array
