@@ -1,0 +1,57 @@
+header {
+  width: 100vw;
+}
+
+.headerDesktop {
+  display: none;
+}
+
+header img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+main {
+  margin: 0% 10%;
+}
+
+.text {
+  width: 100%;
+}
+
+.content {
+  margin-bottom: 10vh;
+}
+
+.select {
+  width: 100%;
+  height: auto;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2%;
+  margin-bottom: 10%;
+}
+
+article {
+  height: 100%;
+}
+
+.gifImages {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+
+.gifImages img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(120, 100, 80, 0.2);
+}

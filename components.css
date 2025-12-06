@@ -1,0 +1,81 @@
+/* ---------- FIELDSET ---------- */
+
+legend,
+label {
+  color: var(--softBrown);
+  font-weight: 800;
+}
+
+legend {
+  background-color: var(--warmWhite);
+  border-radius: 8px;
+  border: 2px dashed var(--warmGold);
+  padding: 1%;
+}
+
+fieldset {
+  border: 4px dashed var(--warmGold);
+  border-radius: 16px;
+  width: 100%;
+  padding-left: 4vw;
+  background-color: var(--warmWhite);
+}
+
+fieldset div {
+  padding: 3% 0;
+}
+
+input[type="radio"],
+label,
+button:hover {
+  cursor: pointer;
+}
+
+/* ---------- BUTTONS ---------- */
+
+button {
+  margin-top: 5%;
+  background-color: var(--deepRed);
+  width: 40vw;
+  aspect-ratio: 4 / 1;
+  border-radius: 8px;
+  color: var(--warmWhite);
+  font-weight: 600;
+}
+
+/* ---------- RESULT BOX ---------- */
+
+.resultBox {
+  padding: 2%;
+  border-radius: 16px;
+  margin-bottom: 15%;
+  height: 100%;
+}
+
+.resultBox p {
+  padding: 4% 1%;
+}
+
+.resultGreen {
+  border: 2px dashed var(--softBrown);
+  background-color: var(--catGingerOpacity);
+}
+
+.error {
+  border: 2px dashed var(--deepRed);
+  background-color: var(--catGinger);
+  width: 70vw;
+  padding: 0;
+}
+
+.error p {
+  padding: 0;
+  margin: 0;
+}
+
+/* ---------- GIFS ---------- */
+
+.gifImage {
+  width: 100%;
+  height: auto;
+}

@@ -1,0 +1,93 @@
+@media screen and (width > 800px) {
+  header img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  .headerMobile {
+    display: none;
+  }
+
+  .headerDesktop {
+    display: block;
+  }
+
+  main {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+
+  .text {
+    padding: 2%;
+  }
+
+  h1 {
+    margin: 5% 0%;
+    font-size: 2rem;
+  }
+
+  fieldset {
+    width: 100%;
+    padding-left: 0;
+  }
+
+  legend {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .buttonContainer {
+    margin-top: 0;
+    margin-bottom: 10%;
+  }
+
+  button {
+    width: 15vw;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+  }
+
+  .text p {
+    font-size: 1.5rem;
+  }
+
+  /* GRID */
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 60px;
+    align-items: start;
+  }
+
+  .textContainer {
+    height: 100%;
+  }
+
+  .resultBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .gifImages {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .gifImages img {
+    max-width: 100%;
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+}

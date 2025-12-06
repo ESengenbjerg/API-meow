@@ -1,0 +1,17 @@
+h1 {
+  font-family: "Merriweather", sans-serif;
+  margin: 12% 0%;
+  font-size: 1.3rem;
+  text-align: center;
+  color: var(--darkForestGreen);
+}
+
+p {
+  text-align: center;
+  margin: 5%;
+  color: var(--softBrown);
+}
+
+.text p {
+  font-weight: 500;
+}
