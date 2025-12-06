@@ -7,12 +7,12 @@ const imageBox = document.querySelector(".gifImages");
 
 // List with GIFs
 const images = [
-  "gif/bake.gif",
-  "gif/christmasTree.gif",
-  "gif/cookies.gif",
-  "gif/greeting.gif",
-  "gif/greeting2.gif",
-  "gif/waiting.gif",
+  "assets/bake.gif",
+  "assets/christmasTree.gif",
+  "assets/cookies.gif",
+  "assets/greeting.gif",
+  "assets/greeting2.gif",
+  "assets/waiting.gif",
 ];
 
 // Create img for GIFs
