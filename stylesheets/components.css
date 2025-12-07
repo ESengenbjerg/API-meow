@@ -1,5 +1,5 @@
-/* ---------- FIELDSET ---------- */
-
+/* ---------- Section: Select ---------- */
+/* Fieldset */
 legend,
 label {
   color: var(--softBrown);
@@ -31,7 +31,7 @@ button:hover {
   cursor: pointer;
 }
 
-/* ---------- BUTTONS ---------- */
+/* Button  */
 
 button {
   margin-top: 5%;
@@ -43,15 +43,7 @@ button {
   font-weight: 600;
 }
 
-/* ---------- RESULT BOX ---------- */
-
-.resultBox {
-  padding: 2%;
-  border-radius: 16px;
-  margin-bottom: 15%;
-  height: 100%;
-}
-
+/* ---------- Section: Result ---------- */
 .fadeIn {
   opacity: 0;
   animation: fadeIn 0.6s ease-out forwards;
@@ -61,6 +53,14 @@ button {
   to {
     opacity: 1;
   }
+}
+
+/* resultFetch */
+.resultBox {
+  padding: 2%;
+  border-radius: 16px;
+  margin-bottom: 15%;
+  height: 100%;
 }
 
 .resultBox p {
@@ -84,9 +84,32 @@ button {
   margin: 0;
 }
 
-/* ---------- GIFS ---------- */
+/* GIFs */
 
 .gifImage {
   width: 100%;
   height: auto;
+}
+
+/* ---------- MEDIA QUERY ---------- */
+@media screen and (min-width: 600px) {
+  button {
+    width: 25vw;
+  }
+}
+
+@media screen and (width > 800px) {
+  fieldset {
+    /* width: 100%; */
+    padding-left: 0;
+  }
+
+  button {
+    width: 15vw;
+  }
+
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
+  }
 }
