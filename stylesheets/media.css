@@ -31,10 +31,10 @@
     display: block;
   }
 
-  main {
+  /* main {
     margin-left: 20vw;
     margin-right: 20vw;
-  }
+  } */
 
   .text {
     padding: 2%;
@@ -46,7 +46,7 @@
   }
 
   fieldset {
-    width: 100%;
+    /* width: 100%; */
     padding-left: 0;
   }
 
@@ -85,10 +85,6 @@
     grid-template-rows: 1fr;
     gap: 60px;
     align-items: start;
-  }
-
-  .textContainer {
-    height: 100%;
   }
 
   .resultBox {
