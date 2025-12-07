@@ -1,10 +1,9 @@
 /* ---------- Section: Select ---------- */
 /* Fieldset */
 fieldset {
-  border: 4px dashed var(--warmGold);
+  border: 2px dashed var(--warmGold);
   border-radius: 16px;
   width: 100%;
-  padding-left: 4vw;
   background-color: var(--warmWhite);
 }
 
@@ -23,7 +22,8 @@ legend {
 }
 
 .options {
-  padding: 3% 0;
+  display: flex;
+  justify-content: space-around;
 }
 
 input[type="radio"],
@@ -31,7 +31,7 @@ label {
   cursor: pointer;
 }
 
-/* Button  */
+/* Button */
 button {
   margin-top: 5%;
   background-color: var(--deepRed);
@@ -57,9 +57,8 @@ button {
 
 /* resultFetch */
 .resultBox {
-  /* padding: 0 2%; */
   border-radius: 16px;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
   height: 100%;
 }
 
@@ -68,7 +67,7 @@ button {
 }
 
 .resultGreen {
-  border: 2px dashed var(--softBrown);
+  border: 2px dashed var(--warmGold);
   background-color: var(--catGingerOpacity);
 }
 
@@ -79,7 +78,6 @@ button {
 }
 
 /* GIFs */
-
 .gifImage {
   width: 100%;
   height: auto;
@@ -91,13 +89,17 @@ button {
     width: 25vw;
     max-width: none;
   }
-}
 
-@media screen and (width > 800px) {
-  fieldset {
-    padding-left: 0;
+  .resultBox {
+    margin-bottom: 5%;
   }
 
+  .resultBox p {
+    padding: 0;
+  }
+}
+
+@media screen and (min-width: 800px) {
   button {
     width: 15vw;
   }
@@ -106,6 +108,10 @@ button {
     transform: scale(1.1);
     box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
     cursor: pointer;
+  }
+
+  .resultBox p {
+    padding: 4% 2%;
   }
 
   .error {

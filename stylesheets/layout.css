@@ -13,12 +13,6 @@ header img {
   height: auto;
 }
 
-/* ---------- Main ---------- */
-main {
-  margin-left: 10vw;
-  margin-right: 10vw;
-}
-
 /* ---------- Section: Welcome ---------- */
 .welcome {
   width: 100%;
@@ -31,7 +25,7 @@ main {
 }
 
 fieldset div {
-  padding: 3% 0;
+  padding: 2% 0;
 }
 
 .buttonContainer {
@@ -60,23 +54,18 @@ article {
   object-fit: contain;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
+  margin-bottom: 10%;
 }
 
 /* ---------- MEDIA QUERY ---------- */
 @media screen and (min-width: 600px) {
-  main {
-    margin-left: 15vw;
-    margin-right: 15vw;
-  }
-
-  .options {
-    display: flex;
-    justify-content: space-around;
+  .gifImages img {
+    width: 50%;
   }
 }
 
-@media screen and (width > 800px) {
-  /* Header */
+@media screen and (min-width: 800px) {
+  /* ---------- Header ---------- */
   .headerMobile {
     display: none;
   }
@@ -90,23 +79,23 @@ article {
     object-fit: contain;
   }
 
-  /* main {
-    margin-left: 20vw;
-    margin-right: 20vw;
-  } */
-
-  /* Section: Welcome */
+  /* ---------- Section: Welcome ---------- */
   .welcome {
     padding: 2%;
   }
 
-  /* Section: Select */
+  /* ---------- Section: Select ---------- */
+
+  fieldset div {
+    padding: 1.5% 0;
+  }
+
   .buttonContainer {
     margin-top: 0;
     margin-bottom: 10%;
   }
 
-  /* Section: Result */
+  /* ---------- Section: Result ---------- */
   .result {
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -134,5 +123,6 @@ article {
     height: 100%;
     width: auto;
     object-fit: cover;
+    margin-bottom: 0;
   }
 }

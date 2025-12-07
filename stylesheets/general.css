@@ -21,3 +21,23 @@ body {
   font-family: "Nunito Sans", sans-serif;
   background-color: var(--candleLight);
 }
+
+/* ---------- MAIN ---------- */
+main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+}
