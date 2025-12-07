@@ -4,7 +4,7 @@ fieldset {
   border: 2px dashed var(--warmGold);
   border-radius: 16px;
   width: 100%;
-  background-color: var(--warmWhite);
+  background-color: var(--pusheenPink);
 }
 
 legend,
@@ -14,7 +14,7 @@ label {
 }
 
 legend {
-  background-color: var(--warmWhite);
+  background-color: var(--pusheenPink);
   border-radius: 8px;
   border: 2px dashed var(--warmGold);
   padding: 1% 3%;
@@ -40,7 +40,6 @@ button {
   aspect-ratio: 4 / 1;
   border-radius: 8px;
   color: var(--warmWhite);
-  font-weight: 600;
 }
 
 /* ---------- Section: Result ---------- */
