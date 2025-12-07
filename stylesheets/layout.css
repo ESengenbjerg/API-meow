@@ -18,6 +18,10 @@ header img {
   width: 100%;
 }
 
+h1 {
+  margin: 7% 0 10% 0;
+}
+
 /* ---------- Section: Select ---------- */
 .select {
   width: 100%;
@@ -36,16 +40,26 @@ fieldset div {
   margin-bottom: 10%;
 }
 
+button {
+  margin-top: 5%;
+  width: 40vw;
+}
+
 /* ---------- Section: Result ---------- */
 article {
   height: 100%;
+  margin-bottom: 5%;
+}
+
+p {
+  margin: 5%;
 }
 
 .gifImages {
-  display: flex;
-  justify-content: center;
   width: 100%;
   height: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .gifImages img {
@@ -59,6 +73,23 @@ article {
 
 /* ---------- MEDIA QUERY ---------- */
 @media screen and (min-width: 600px) {
+  h1 {
+    margin: 7% 0%;
+  }
+
+  button {
+    width: 25vw;
+    max-width: none;
+  }
+
+  .resultBox {
+    margin-bottom: 5%;
+  }
+
+  .resultBox p {
+    padding: 0;
+  }
+
   .gifImages img {
     width: 50%;
   }
@@ -84,6 +115,10 @@ article {
     padding: 2%;
   }
 
+  h1 {
+    margin: 4% 0%;
+  }
+
   /* ---------- Section: Select ---------- */
 
   fieldset div {
@@ -93,6 +128,10 @@ article {
   .buttonContainer {
     margin-top: 0;
     margin-bottom: 10%;
+  }
+
+  button {
+    width: 15vw;
   }
 
   /* ---------- Section: Result ---------- */
@@ -109,6 +148,19 @@ article {
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-bottom: 10%;
+    height: 100%;
+  }
+
+  .resultBox p {
+    padding: 4% 2%;
+  }
+
+  .error {
+    /* width: 100%; */
+    width: 40vw;
+    margin: 0 15vw;
+    padding: 0;
   }
 
   .gifImages {

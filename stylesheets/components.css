@@ -7,18 +7,11 @@ fieldset {
   background-color: var(--pusheenPink);
 }
 
-legend,
-label {
-  color: var(--softBrown);
-  font-weight: 800;
-}
-
 legend {
   background-color: var(--pusheenPink);
   border-radius: 8px;
   border: 2px dashed var(--warmGold);
   padding: 1% 3%;
-  text-align: center;
 }
 
 .options {
@@ -33,13 +26,10 @@ label {
 
 /* Button */
 button {
-  margin-top: 5%;
   background-color: var(--deepRed);
-  width: 40vw;
   max-width: 160px;
   aspect-ratio: 4 / 1;
   border-radius: 8px;
-  color: var(--warmWhite);
 }
 
 /* ---------- Section: Result ---------- */
@@ -57,12 +47,6 @@ button {
 /* resultFetch */
 .resultBox {
   border-radius: 16px;
-  margin-bottom: 10%;
-  height: 100%;
-}
-
-.resultBox p {
-  padding: 4% 2%;
 }
 
 .resultGreen {
@@ -73,49 +57,12 @@ button {
 .error {
   border: 2px dashed var(--deepRed);
   background-color: var(--catGinger);
-  width: 100%;
-}
-
-/* GIFs */
-.gifImage {
-  width: 100%;
-  height: auto;
-}
-
-/* ---------- MEDIA QUERY ---------- */
-@media screen and (min-width: 600px) {
-  button {
-    width: 25vw;
-    max-width: none;
-  }
-
-  .resultBox {
-    margin-bottom: 5%;
-  }
-
-  .resultBox p {
-    padding: 0;
-  }
 }
 
 @media screen and (min-width: 800px) {
-  button {
-    width: 15vw;
-  }
-
   button:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
     cursor: pointer;
-  }
-
-  .resultBox p {
-    padding: 4% 2%;
-  }
-
-  .error {
-    width: 40vw;
-    margin: 0 15vw;
-    padding: 0;
   }
 }
