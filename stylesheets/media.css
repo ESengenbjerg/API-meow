@@ -1,3 +1,22 @@
+/* For tablets */
+@media screen and (min-width: 600px) {
+  main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  }
+
+  h1 {
+    /* margin: 5% 0%; */
+    font-size: 1.5rem;
+  }
+
+  .options {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* For desktops and some tablets in landscape */
 @media screen and (width > 800px) {
   header img {
     height: auto;
