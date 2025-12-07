@@ -20,18 +20,18 @@ main {
 }
 
 /* ---------- Section: Welcome ---------- */
-.text {
+.welcome {
   width: 100%;
 }
 
 /* ---------- Section: Select ---------- */
-/* .content {
-  margin-bottom: 10vh;
-} */
-
 .select {
   width: 100%;
   height: auto;
+}
+
+fieldset div {
+  padding: 3% 0;
 }
 
 .buttonContainer {
@@ -96,29 +96,24 @@ article {
   } */
 
   /* Section: Welcome */
-  .text {
+  .welcome {
     padding: 2%;
   }
 
   /* Section: Select */
-  /* Dublett mot tidigare media query */
-  .options {
-    display: flex;
-    justify-content: space-around;
-  }
-
   .buttonContainer {
     margin-top: 0;
     margin-bottom: 10%;
   }
 
   /* Section: Result */
-  .content {
+  .result {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
     gap: 60px;
     align-items: start;
+    margin-bottom: 10vh;
   }
 
   .resultBox {
