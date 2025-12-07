@@ -1,6 +1,6 @@
 // Elements in HTML
 const button = document.querySelector("button");
-const article = document.querySelector("article");
+const resultFetch = document.querySelector(".resultFetch");
 
 // ---------- GIF ----------
 const imageBox = document.querySelector(".gifImages");
@@ -58,8 +58,8 @@ button.addEventListener("click", () => {
         resultBox.appendChild(p);
       });
 
-      //Append resultDiv to container/article
-      article.appendChild(resultBox);
+      //Append resultDiv to article
+      resultFetch.appendChild(resultBox);
 
       //---------- Slideshow ----------
       gifImage.src = images[index];
@@ -85,6 +85,6 @@ button.addEventListener("click", () => {
       resultBox.appendChild(p);
 
       //Append errorDiv to container/article
-      article.appendChild(resultBox);
+      resultFetch.appendChild(resultBox);
     });
 });
