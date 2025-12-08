@@ -22,6 +22,10 @@ h1 {
   margin: 7% 0 10% 0;
 }
 
+.welcome img {
+  display: none;
+}
+
 /* ---------- Section: Select ---------- */
 .select {
   width: 100%;
@@ -115,6 +119,20 @@ p {
 
   h1 {
     margin: 4% 0%;
+  }
+
+  .welcome img {
+    display: block;
+    position: fixed;
+    width: 10vw;
+    bottom: 1%;
+    right: 1%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .welcome img {
+      display: none;
+    }
   }
 
   /* ---------- Section: Select ---------- */
