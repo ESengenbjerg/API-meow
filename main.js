@@ -23,7 +23,9 @@ gifImage.alt = "GIFs with Pusheen the super cute cat";
 let index = 0;
 
 // ----------EVENT LISTENER ----------
-button.addEventListener("click", () => {
+button.addEventListener("click", (event) => {
+  event.preventDefault();
+
   const count = document.querySelector('input[name="factCount"]:checked').value;
   const url = `https://meowfacts.herokuapp.com/?count=${count}`;
 
@@ -54,7 +56,7 @@ button.addEventListener("click", () => {
       // Create p elements for each fact:
       facts.forEach((fact) => {
         const p = document.createElement("p");
-        p.textContent = fact;
+        p.textContent = fact.slice(0, 200); // Trims down the superlong facts
         resultBox.appendChild(p);
       });
 

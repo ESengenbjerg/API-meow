@@ -52,7 +52,7 @@ article {
 }
 
 p {
-  margin: 8%;
+  margin: 4% 8%;
 }
 
 .gifImages {
@@ -134,6 +134,7 @@ p {
 
   /* ---------- Section: Result ---------- */
   .result {
+    max-height: 60vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -151,7 +152,6 @@ p {
   }
 
   .error {
-    /* width: 100%; */
     width: 40vw;
     margin: 0 15vw;
     padding: 0;

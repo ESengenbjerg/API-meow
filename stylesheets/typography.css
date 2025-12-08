@@ -24,9 +24,6 @@ button {
 p {
   text-align: center;
   color: var(--softBrown);
-}
-
-.resultBox p {
   font-weight: 500;
 }
 
