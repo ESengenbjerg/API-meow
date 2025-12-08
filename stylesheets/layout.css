@@ -19,7 +19,7 @@ header img {
 }
 
 h1 {
-  margin: 7% 0 10% 0;
+  margin: 4vh 0 8vh 0;
 }
 
 .welcome img {
@@ -32,6 +32,10 @@ h1 {
   height: auto;
 }
 
+fieldset {
+  margin-bottom: 4vh;
+}
+
 fieldset div {
   padding: 2% 0;
 }
@@ -40,19 +44,17 @@ fieldset div {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 2%;
-  margin-bottom: 10%;
+  margin-bottom: 8vh;
 }
 
 button {
-  margin-top: 5%;
   width: 40vw;
 }
 
 /* ---------- Section: Result ---------- */
 article {
   height: 100%;
-  margin-bottom: 5%;
+  margin-bottom: 4vh;
 }
 
 p {
@@ -73,22 +75,14 @@ p {
   object-fit: contain;
   border-radius: 16px;
   box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
-  margin-bottom: 10%;
+  margin-bottom: 4vh;
 }
 
 /* ---------- MEDIA QUERY ---------- */
 @media screen and (min-width: 600px) {
-  h1 {
-    margin: 7% 0%;
-  }
-
   button {
     width: 25vw;
     max-width: none;
-  }
-
-  .resultBox {
-    margin-bottom: 5%;
   }
 
   .gifImages img {
@@ -117,10 +111,6 @@ p {
     padding: 2%;
   }
 
-  h1 {
-    margin: 4% 0%;
-  }
-
   .welcome img {
     display: block;
     position: fixed;
@@ -141,10 +131,11 @@ p {
     padding: 1.5% 0;
   }
 
-  .buttonContainer {
-    margin-top: 0;
+  /* .buttonContainer { */
+  /* Blir detta konsekvent i denna media query? */
+  /* margin-top: 0;
     margin-bottom: 10%;
-  }
+  } */
 
   button {
     width: 15vw;
@@ -158,14 +149,12 @@ p {
     grid-template-rows: 1fr;
     gap: 60px;
     align-items: start;
-    margin-bottom: 10vh;
   }
 
   .resultBox {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-bottom: 10%;
     height: 100%;
   }
 
