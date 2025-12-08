@@ -131,19 +131,15 @@ p {
     padding: 1.5% 0;
   }
 
-  /* .buttonContainer { */
-  /* Blir detta konsekvent i denna media query? */
-  /* margin-top: 0;
-    margin-bottom: 10%;
-  } */
-
   button {
     width: 15vw;
   }
 
   /* ---------- Section: Result ---------- */
   .result {
-    max-height: 60vh;
+    width: 100%; /* Test */
+    height: auto; /* Test */
+    /* max-height: 60vh; */
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
@@ -166,6 +162,7 @@ p {
 
   .gifImages {
     height: 100%;
+    width: 100%; /* Test */
     display: flex;
     align-items: center;
     justify-content: end;
@@ -173,7 +170,7 @@ p {
 
   .gifImages img {
     max-width: 100%;
-    min-width: 0;
+    /* min-width: 0; */ /* Test */
     height: 100%;
     width: auto;
     object-fit: cover;
