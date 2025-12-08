@@ -39,7 +39,8 @@ main {
   main {
     margin-left: 15vw;
     margin-right: 15vw;
-    height: 100vh;
+    min-height: 120vh;
+    height: fit-content;
   }
 }
 
@@ -47,6 +48,6 @@ main {
   main {
     margin-left: 20vw;
     margin-right: 20vw;
-    height: 140vh;
+    min-height: 100vh;
   }
 }
