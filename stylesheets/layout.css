@@ -52,7 +52,7 @@ article {
 }
 
 p {
-  margin: 5%;
+  margin: 8%;
 }
 
 .gifImages {
@@ -64,6 +64,7 @@ p {
 
 .gifImages img {
   width: 100%;
+  max-width: 350px;
   height: auto;
   object-fit: contain;
   border-radius: 16px;
@@ -86,12 +87,9 @@ p {
     margin-bottom: 5%;
   }
 
-  .resultBox p {
-    padding: 0;
-  }
-
   .gifImages img {
     width: 50%;
+    min-width: 350px;
   }
 }
 
@@ -152,10 +150,6 @@ p {
     height: 100%;
   }
 
-  .resultBox p {
-    padding: 4% 2%;
-  }
-
   .error {
     /* width: 100%; */
     width: 40vw;
@@ -172,6 +166,7 @@ p {
 
   .gifImages img {
     max-width: 100%;
+    min-width: 0;
     height: 100%;
     width: auto;
     object-fit: cover;
