@@ -59,7 +59,7 @@ button {
   background-color: var(--catGinger);
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   button:hover {
     transform: scale(1.1);
     box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);

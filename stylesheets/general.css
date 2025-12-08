@@ -35,16 +35,26 @@ main {
   }
 }
 
-@media screen and (min-width: 800px) {
+@media screen and (min-width: 900px) {
   main {
-    margin-left: 15vw;
-    margin-right: 15vw;
+    /* margin-left: 15vw;
+    margin-right: 15vw; */
+    margin-left: 10vw;
+    margin-right: 10vw;
     min-height: 120vh;
     height: fit-content;
   }
 }
 
 @media screen and (min-width: 1200px) {
+  main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1500px) {
   main {
     margin-left: 20vw;
     margin-right: 20vw;
