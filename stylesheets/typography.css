@@ -1,0 +1,49 @@
+/* ---------- Section: Welcome ---------- */
+h1 {
+  font-family: "Merriweather", sans-serif;
+  font-size: 1.5rem;
+  text-align: center;
+  color: var(--darkForestGreen);
+}
+
+/* ---------- Section: Select ---------- */
+legend,
+label {
+  color: var(--softBrown);
+  font-weight: 800;
+  text-align: center;
+}
+
+button {
+  font-size: 1rem;
+  font-weight: 600;
+  color: var(--warmWhite);
+}
+
+/* ---------- Section: Result ---------- */
+p {
+  text-align: center;
+  color: var(--softBrown);
+  font-weight: 500;
+}
+
+/* ---------- MEDIA QUERY ---------- */
+@media screen and (min-width: 600px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  button {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  legend {
+    font-size: 1.2rem;
+  }
+}

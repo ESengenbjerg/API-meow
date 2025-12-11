@@ -1,0 +1,181 @@
+/* ---------- Header ---------- */
+header {
+  width: 100vw;
+}
+
+.headerDesktop {
+  display: none;
+}
+
+header img {
+  width: 100%;
+  object-fit: cover;
+  height: auto;
+}
+
+/* ---------- Section: Welcome ---------- */
+.welcome {
+  width: 100%;
+}
+
+h1 {
+  margin: 4vh 0 8vh 0;
+}
+
+.welcome img {
+  display: none;
+}
+
+/* ---------- Section: Select ---------- */
+.select {
+  width: 100%;
+  height: auto;
+}
+
+fieldset {
+  margin-bottom: 4vh;
+}
+
+fieldset div {
+  padding: 2% 0;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8vh;
+}
+
+button {
+  width: 40vw;
+}
+
+/* ---------- Section: Result ---------- */
+article {
+  height: 100%;
+  margin-bottom: 4vh;
+}
+
+p {
+  margin: 4% 8%;
+}
+
+.gifImages {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+}
+
+.gifImages img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
+  object-fit: contain;
+  border-radius: 16px;
+  box-shadow: 0 4px 12px rgba(120, 100, 80, 0.35);
+  margin-bottom: 4vh;
+}
+
+/* ---------- MEDIA QUERY ---------- */
+@media screen and (min-width: 600px) {
+  button {
+    width: 25vw;
+    max-width: none;
+  }
+
+  .gifImages img {
+    width: 50%;
+    min-width: 350px;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  /* ---------- Header ---------- */
+  .headerMobile {
+    display: none;
+  }
+
+  .headerDesktop {
+    display: block;
+  }
+
+  header img {
+    height: auto;
+    object-fit: contain;
+  }
+
+  /* ---------- Section: Welcome ---------- */
+  .welcome {
+    padding: 2%;
+  }
+
+  .welcome img {
+    display: block;
+    position: fixed;
+    width: 10vw;
+    bottom: 1%;
+    right: 1%;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .welcome img {
+      display: none;
+    }
+  }
+
+  /* ---------- Section: Select ---------- */
+
+  fieldset div {
+    padding: 1.5% 0;
+  }
+
+  button {
+    width: 15vw;
+  }
+
+  /* ---------- Section: Result ---------- */
+  .result {
+    width: 100%; /* Test */
+    height: auto; /* Test */
+    /* max-height: 60vh; */
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 60px;
+    align-items: start;
+    margin-bottom: 8vh;
+  }
+
+  .resultBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+  }
+
+  .error {
+    width: 40vw;
+    margin: 0 15vw;
+    padding: 0;
+  }
+
+  .gifImages {
+    height: 100%;
+    width: 100%; /* Test */
+    display: flex;
+    align-items: center;
+    justify-content: end;
+  }
+
+  .gifImages img {
+    max-width: 100%;
+    /* min-width: 0; */ /* Test */
+    height: 100%;
+    /* width: auto; */ /* Test */
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 0;
+  }
+}

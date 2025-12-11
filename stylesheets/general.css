@@ -1,0 +1,67 @@
+/* ---------- CSS VARIABLES ---------- */
+:root {
+  --candleLight: #ffe6b2; /* Background */
+  --pusheenPink: #fef3e7; /* Surface */
+  --darkForestGreen: #214436; /* Text header */
+  --deepRed: #b0413e; /* Accent */
+  --warmGold: #d7b56d; /* Borders */
+  --softBrown: #4a3f35; /* Text dark */
+  --warmWhite: #faf7f1; /* Text light */
+  --catGinger: #d68c4a; /* Surface */
+  --catGingerOpacity: rgba(214, 140, 74, 0.2); /* Surface */
+}
+
+/* ---------- GLOBAL RESET ---------- */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  font-family: "Nunito Sans", sans-serif;
+  background-color: var(--candleLight);
+}
+
+/* ---------- MAIN ---------- */
+main {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+
+@media screen and (min-width: 600px) {
+  main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  }
+}
+
+@media screen and (min-width: 900px) {
+  main {
+    margin-left: 10vw;
+    margin-right: 10vw;
+    min-height: 120vh;
+    height: fit-content;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  main {
+    margin-left: 15vw;
+    margin-right: 15vw;
+    min-height: 100vh;
+  }
+}
+
+@media screen and (min-width: 1500px) {
+  main {
+    margin-left: 20vw;
+    margin-right: 20vw;
+  }
+}
+
+@media screen and (min-width: 1900px) {
+  main {
+    margin-left: 25vw;
+    margin-right: 25vw;
+  }
+}

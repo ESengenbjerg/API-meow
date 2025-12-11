@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Meow facts</title>
+
+    <!-- Fonts -->
+    <!-- Merriweather & Nunito Sans -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="stylesheets/general.css" />
+    <link rel="stylesheet" href="stylesheets/components.css" />
+    <link rel="stylesheet" href="stylesheets/layout.css" />
+    <link rel="stylesheet" href="stylesheets/typography.css" />
+  </head>
+
+  <body>
+    <header>
+      <img
+        class="headerMobile"
+        src="assets/headerSmall.png"
+        alt="Christmas cat with christmas themed border"
+      />
+      <img
+        class="headerDesktop"
+        src="assets/headerMedium.png"
+        alt="Christmas cat with christmas themed border"
+      />
+    </header>
+
+    <main>
+      <section class="welcome">
+        <h1>Welcome to Meow facts!</h1>
+        <img src="assets/peach.gif" alt="Peach and Goma gif" />
+      </section>
+
+      <section class="select">
+        <fieldset>
+          <legend>Choose number of facts:</legend>
+          <div class="options">
+            <div>
+              <input
+                type="radio"
+                id="fact1"
+                name="factCount"
+                value="1"
+                checked
+              />
+              <label for="fact1">1</label>
+            </div>
+
+            <div>
+              <input type="radio" id="fact2" name="factCount" value="2" />
+              <label for="fact2">2</label>
+            </div>
+
+            <div>
+              <input type="radio" id="fact3" name="factCount" value="3" />
+              <label for="fact3">3</label>
+            </div>
+          </div>
+        </fieldset>
+        <div class="buttonContainer">
+          <button>Get facts!</button>
+        </div>
+      </section>
+
+      <section class="result">
+        <article class="resultFetch">
+          <!-- Place for facts -->
+        </article>
+
+        <article class="gifImages">
+          <!-- Place for GIF -->
+        </article>
+      </section>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
